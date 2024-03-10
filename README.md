@@ -6,7 +6,7 @@ MEXC Price Bot is a Telegram bot built with Telegraf in Node.js that allows user
 ##Features
 Get the latest price, high, low, and amount for a specific cryptocurrency symbol in USDT pair.
 Automatically appends "_USDT" to the provided symbol for fetching data.
-Provides real-time data fetched from the MXC API.
+Provides real-time data fetched from the MEXC API.
 
 ##Setup Instructions
 
@@ -17,7 +17,7 @@ git clone https://github.com/your_username/mexc-price-bot.git
 
 2. Install dependencies:
 ```
-cd mxc-price-bot
+cd mexc-price-bot
 npm install
 ```
 
