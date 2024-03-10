@@ -1,4 +1,4 @@
-##MXC Price Bot
+##MEXC Price Bot
 
 ##Overview
 MEXC Price Bot is a Telegram bot built with Telegraf in Node.js that allows users to fetch price, high, low, and amount data for cryptocurrency symbols from the MEXC exchange.
@@ -12,7 +12,7 @@ Provides real-time data fetched from the MXC API.
 
 1. Clone the repository:
 ```
-git clone https://github.com/your_username/mxc-price-bot.git
+git clone https://github.com/your_username/mexc-price-bot.git
 ```
 
 2. Install dependencies:
@@ -29,7 +29,7 @@ node index.js
 ```
 
 ##Usage
-To use the MXC Price Bot, follow these steps:
+To use the MEXC Price Bot, follow these steps:
 
 Start a chat with the bot by searching for it in Telegram or clicking on the provided link.
 Use the /price SYMBOL command to fetch the latest price, high, low, and amount data for a specific cryptocurrency symbol. Replace SYMBOL with the desired cryptocurrency symbol (e.g., BTC, ETH, LTC).
