@@ -1,0 +1,54 @@
+{
+  "name": "mexcpricebot",
+  "version": "1.0.0",
+  "description": "MEXC Price Bot is a Telegram bot built with Telegraf in Node.js that allows users to fetch price, high, low, and amount data for cryptocurrency symbols from the MEXC exchange.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "async": "^3.2.0",
+    "axios": "^0.24.0",
+	"binancepricebot": "1.0.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.6",
+    "dotenv": "^10.0.0",
+    "express": "^4.18.3",
+    "graphql": "^15.5.0",
+    "helmet": "^4.6.0",
+    "jest": "^27.2.3",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "mongodb": "^4.3.0",
+    "mongoose": "^6.0.13",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.7.0",
+    "nodemailer": "^6.6.3",
+    "nodemon": "^2.0.14",
+    "passport": "^0.5.0",
+    "puppeteer": "^13.2.3",
+    "redux": "^4.1.2",
+    "sequelize": "^6.6.5",
+    "socket.io": "^4.3.2",
+    "supertest": "^6.2.2",
+    "winston": "^3.3.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/20dec/mexcpricebot"
+  },
+  "keywords": [
+    "MEXC",
+    "price",
+    "bot"
+  ],
+  "author": "20dec",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/20dec/mexcpricebot/issues"
+  },
+  "homepage": "https://github.com/20dec/mexcpricebot#readme"
+}
